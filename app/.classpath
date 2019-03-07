@@ -40,7 +40,5 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="E:/desenvolvimento/workspace/curso-deploy/git/app/src/main/webapp/WEB-INF/lib/jsf-api-2.2.18.jar"/>
-	<classpathentry kind="lib" path="E:/desenvolvimento/workspace/curso-deploy/git/app/src/main/webapp/WEB-INF/lib/jsf-impl-2.2.18.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
