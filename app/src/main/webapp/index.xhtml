@@ -1,4 +1,5 @@
 <html xmlns="http://www.w3c.org/1999/xhtml"
+xmlns:f="http://xmlns.jcp.org/jsf/core"
 xmlns:h="http://xmlns.jcp.org/jsf/html"
 xmlns:p="http://primefaces.org/ui">
 
@@ -18,9 +19,13 @@ xmlns:p="http://primefaces.org/ui">
 </h:head>
 
 <h:body>
-
+    <f:loadBundle basename="app" var="properties" />
+    
     <div id="content">
-        <h2 id="titulo">#{helloWorld.greetings()}</h2>
+        <h2 id="titulo">            
+            #{helloWorld.greetings()}
+            #{properties.ambiente}  
+        </h2>
         
         <h:form id="formulario">
         
