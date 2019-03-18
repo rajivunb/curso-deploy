@@ -15,6 +15,9 @@ xmlns:p="http://primefaces.org/ui">
         #formulario { margin: 0 auto; width: 550px; }
         #resultado { font-weight: bold; margin-top: 20px;}
         #resultado span { color: red; margin-left: 10px;}
+        #footer { position: fixed; left: 0; bottom: 0; width: 100%; background-color: gray;
+                        color: white; text-align: center; font-size: 12px }
+        #footer-content { vertical-align: middle; line-height: 10px}
     </style>
 </h:head>
 
@@ -43,6 +46,10 @@ xmlns:p="http://primefaces.org/ui">
             </div>
                 
         </h:form>
+    </div>
+    
+    <div id="footer">
+        <p id="footer-content">#{properties.versao}</p>
     </div>
 
 </h:body>
